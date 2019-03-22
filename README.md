@@ -1,6 +1,8 @@
 # Edesky client
 
-Dart client for [edesky.cz API](https://edesky.cz/api)
+[![Pub](https://img.shields.io/pub/v/edeskyclient.svg?style=flat-square)](https://pub.dartlang.org/packages/edeskyclient)
+
+Dart client for Czech service [edesky.cz API](https://edesky.cz/api). Supports dashboards and documents querying.
 
 ## Usage
 

@@ -1,6 +1,7 @@
 name: edeskyclient
-description: Dart client for edesky API
+description: Dart client for Czech service edesky.cz API. Supports dashboards and documents querying.
 version: 0.0.1
+homepage: https://github.com/janstol/edeskyclient_dart
 repository: https://github.com/janstol/edeskyclient_dart
 author: Jan Štol <honzastol@gmail.com>
 
