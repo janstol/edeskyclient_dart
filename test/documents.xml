@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<edesky_search_api version='1.0'>
+    <meta>
+        <timestamp>2019-03-17 21:42:38 +0100</timestamp>
+        <user>xyz@xyz.com</user>
+        <requested_params>{"keywords"=>"chrudim", "created_from"=>"2019-03-03", "order"=>"date", "search_with"=>"sql",
+            "api_key"=>"xyz", "page"=>"1", "format"=>"xml"}
+        </requested_params>
+        <documents_count total='10'>10</documents_count>
+        <page total='1'>1</page>
+    </meta>
+    <documents>
+        <document created_at='2019-03-15 13:26:02 +0100' dashboard_category='samosprava' dashboard_id='97'
+                  dashboard_name='Město Chrudim' dashboard_ovm_ico='270211' dashboard_ovm_zkratka='CHRUDIM'
+                  dashboard_ruian_kod='571164' edesky_id='2795955'
+                  edesky_text_url='https://edesky.cz/dokument/2795955.txt'
+                  edesky_url='https://edesky.cz/dokument/2795955'
+                  name='165  Pozvánka na 3. řádné zasedání Zastupitelstva města Chrudim (25.03.2019)'
+                  orig_url='http://edeska.chrudim-city.cz/eDeska/eDeskaDetail.jsp?detailId=10163'>
+            <attachments>
+                <attachment contains_text='1' edesky_id='4198676' mimetype='application/pdf'
+                            name='Pozvanka_-_ZM_25.3.2019.pdf'
+                            orig_url='http://edeska.chrudim-city.cz/eDeska/download.jsp?idPriloha=10588'
+                            url='https://edesky.cz/dokument/2795955#priloha_4198676'>
+                </attachment>
+            </attachments>
+        </document>
+        <document created_at='2019-03-14 17:33:27 +0100' dashboard_category='samosprava' dashboard_id='364'
+                  dashboard_name='Město Heřmanův Městec' dashboard_ovm_ico='270041' dashboard_ovm_zkratka='HERMMEST'
+                  dashboard_ruian_kod='571385' edesky_id='2794042'
+                  edesky_text_url='https://edesky.cz/dokument/2794042.txt'
+                  edesky_url='https://edesky.cz/dokument/2794042'
+                  name='Vyhlášení výběrového řízení na pozici "Pracovník pro krizové rodinné poradenství"- pracoviště Chrudim'
+                  orig_url='http://www.hermanuv-mestec.cz/radnice/uredni-deska/vyhlaseni-vyberoveho-rizeni-na-pozici-pracovnik-pro-krizove-rodinne-poradenstvi-pracoviste-chrudim-3809.html'>
+            <attachments>
+                <attachment contains_text='1' edesky_id='4196211' mimetype='application/pdf'
+                            name='Vyhlášení výběrového řízení na pozici "Pracovník pro krizové rodinné poradenství"- pracoviště Chrudim'
+                            orig_url='http://www.hermanuv-mestec.cz/e_download.php?file=data/uredni_deska/obsah3756_33.pdf&amp;original=31.pdf.docx.pdf'
+                            url='https://edesky.cz/dokument/2794042#priloha_4196211'>
+                </attachment>
+            </attachments>
+        </document>
+        <document created_at='2019-03-14 17:13:32 +0100' dashboard_category='samosprava' dashboard_id='97'
+                  dashboard_name='Město Chrudim' dashboard_ovm_ico='270211' dashboard_ovm_zkratka='CHRUDIM'
+                  dashboard_ruian_kod='571164' edesky_id='2793607'
+                  edesky_text_url='https://edesky.cz/dokument/2793607.txt'
+                  edesky_url='https://edesky.cz/dokument/2793607'
+                  name='163  Veřejná vyhláška - dočasný zákaz stání - blokové čištění, Chrudim'
+                  orig_url='http://edeska.chrudim-city.cz/eDeska/eDeskaDetail.jsp?detailId=10161'>
+            <attachments>
+                <attachment contains_text='1' edesky_id='4195655' mimetype='application/pdf' name='2019-014064.pdf'
+                            orig_url='http://edeska.chrudim-city.cz/eDeska/download.jsp?idPriloha=10586'
+                            url='https://edesky.cz/dokument/2793607#priloha_4195655'>
+                </attachment>
+            </attachments>
+        </document>
+        <document created_at='2019-03-14 17:09:24 +0100' dashboard_category='samosprava' dashboard_id='65'
+                  dashboard_name='Město Jindřichův Hradec' dashboard_ovm_ico='246875' dashboard_ovm_zkratka='JINDHRAD'
+                  dashboard_ruian_kod='545881' edesky_id='2793450'
+                  edesky_text_url='https://edesky.cz/dokument/2793450.txt'
+                  edesky_url='https://edesky.cz/dokument/2793450'
+                  name='Exekutorský úřad Chrudim - usnesení o elektronickém dražebním jednání nemovitých věcí dne 26.3.2019 ve 14:00 hod. proti povinnému   František Vorhemus'
+                  orig_url='https://www.jh.cz/redakce/index.php?lanG=cs&amp;clanek=50569&amp;slozka=48383&amp;xsekce=50568&amp;as4uOriginalDomain=www.jh.cz&amp;as4u_protocol=https&amp;ConfirmCookie=confirm&amp;detail_claim=102814&amp;'>
+            <attachments>
+                <attachment contains_text='1' edesky_id='4195483' mimetype='application/pdf' name='20190307125040800'
+                            orig_url='https://www.jh.cz/filemanager/files/file.php?file=416519'
+                            url='https://edesky.cz/dokument/2793450#priloha_4195483'>
+                </attachment>
+            </attachments>
+        </document>
+        <document created_at='2019-03-12 07:11:05 +0100' dashboard_category='samosprava' dashboard_id='65'
+                  dashboard_name='Město Jindřichův Hradec' dashboard_ovm_ico='246875' dashboard_ovm_zkratka='JINDHRAD'
+                  dashboard_ruian_kod='545881' edesky_id='2783806'
+                  edesky_text_url='https://edesky.cz/dokument/2783806.txt'
+                  edesky_url='https://edesky.cz/dokument/2783806'
+                  name='Exekutorský úřad Chrudim - usnesení o elektronickém dražebním jednání nemovitých věcí dne 26.3.2019 ve 14:00 hod. proti povinnému   František Vorhemus'
+                  orig_url='https://www.jh.cz/redakce/index.php?lanG=cs&amp;clanek=50569&amp;slozka=48383&amp;xsekce=50568&amp;as4uOriginalDomain=www.jh.cz&amp;as4u_protocol=https&amp;ConfirmCookie=yes&amp;detail_claim=102814&amp;'>
+            <attachments>
+                <attachment contains_text='1' edesky_id='4182740' mimetype='application/pdf' name='20190307125040800'
+                            orig_url='https://www.jh.cz/filemanager/files/file.php?file=416519'
+                            url='https://edesky.cz/dokument/2783806#priloha_4182740'>
+                </attachment>
+            </attachments>
+        </document>
+        <document created_at='2019-03-08 17:18:38 +0100' dashboard_category='samosprava' dashboard_id='97'
+                  dashboard_name='Město Chrudim' dashboard_ovm_ico='270211' dashboard_ovm_zkratka='CHRUDIM'
+                  dashboard_ruian_kod='571164' edesky_id='2778710'
+                  edesky_text_url='https://edesky.cz/dokument/2778710.txt'
+                  edesky_url='https://edesky.cz/dokument/2778710'
+                  name='150  Veřejná vyhláška - územní rozhodnutí - umístění stavby - Chrudim, ul. Malecká'
+                  orig_url='http://edeska.chrudim-city.cz/eDeska/eDeskaDetail.jsp?detailId=10147'>
+            <attachments>
+                <attachment contains_text='1' edesky_id='4176178' mimetype='application/pdf' name='2018-083998.pdf'
+                            orig_url='http://edeska.chrudim-city.cz/eDeska/download.jsp?idPriloha=10570'
+                            url='https://edesky.cz/dokument/2778710#priloha_4176178'>
+                </attachment>
+            </attachments>
+        </document>
+        <document created_at='2019-03-08 17:18:38 +0100' dashboard_category='samosprava' dashboard_id='97'
+                  dashboard_name='Město Chrudim' dashboard_ovm_ico='270211' dashboard_ovm_zkratka='CHRUDIM'
+                  dashboard_ruian_kod='571164' edesky_id='2778709'
+                  edesky_text_url='https://edesky.cz/dokument/2778709.txt'
+                  edesky_url='https://edesky.cz/dokument/2778709'
+                  name='151  Veřejná vyhláška - územní rozhodnutí - umístění stavby - parc. č. 966/60 k. ú. Chrudim'
+                  orig_url='http://edeska.chrudim-city.cz/eDeska/eDeskaDetail.jsp?detailId=10148'>
+            <attachments>
+                <attachment contains_text='1' edesky_id='4176177' mimetype='application/pdf' name='2018-070108.pdf'
+                            orig_url='http://edeska.chrudim-city.cz/eDeska/download.jsp?idPriloha=10571'
+                            url='https://edesky.cz/dokument/2778709#priloha_4176177'>
+                </attachment>
+            </attachments>
+        </document>
+        <document created_at='2019-03-08 17:18:35 +0100' dashboard_category='samosprava' dashboard_id='97'
+                  dashboard_name='Město Chrudim' dashboard_ovm_ico='270211' dashboard_ovm_zkratka='CHRUDIM'
+                  dashboard_ruian_kod='571164' edesky_id='2778707'
+                  edesky_text_url='https://edesky.cz/dokument/2778707.txt'
+                  edesky_url='https://edesky.cz/dokument/2778707'
+                  name='153  Záměr obce - prodej pozemků v k. ú. Chrudim'
+                  orig_url='http://edeska.chrudim-city.cz/eDeska/eDeskaDetail.jsp?detailId=10150'>
+            <attachments>
+                <attachment contains_text='1' edesky_id='4176175' mimetype='application/pdf' name='zamer_brezen.pdf'
+                            orig_url='http://edeska.chrudim-city.cz/eDeska/download.jsp?idPriloha=10573'
+                            url='https://edesky.cz/dokument/2778707#priloha_4176175'>
+                </attachment>
+            </attachments>
+        </document>
+        <document created_at='2019-03-07 17:11:38 +0100' dashboard_category='samosprava' dashboard_id='65'
+                  dashboard_name='Město Jindřichův Hradec' dashboard_ovm_ico='246875' dashboard_ovm_zkratka='JINDHRAD'
+                  dashboard_ruian_kod='545881' edesky_id='2775869'
+                  edesky_text_url='https://edesky.cz/dokument/2775869.txt'
+                  edesky_url='https://edesky.cz/dokument/2775869'
+                  name='Exekutorský úřad Chrudim - usnesení o elektronickém dražebním jednání nemovitých věcí dne 26.3.2019 ve 14:00 hod. proti povinnému   František Vorhemus'
+                  orig_url='https://www.jh.cz/redakce/index.php?lanG=cs&amp;clanek=50569&amp;slozka=48383&amp;xsekce=50568&amp;as4uOriginalDomain=www.jh.cz&amp;as4u_protocol=https&amp;detail_claim=102814&amp;'>
+            <attachments>
+                <attachment contains_text='1' edesky_id='4172572' mimetype='application/pdf' name='20190307125040800'
+                            orig_url='https://www.jh.cz/filemanager/files/file.php?file=416519'
+                            url='https://edesky.cz/dokument/2775869#priloha_4172572'>
+                </attachment>
+            </attachments>
+        </document>
+        <document created_at='2019-03-04 17:16:03 +0100' dashboard_category='samosprava' dashboard_id='97'
+                  dashboard_name='Město Chrudim' dashboard_ovm_ico='270211' dashboard_ovm_zkratka='CHRUDIM'
+                  dashboard_ruian_kod='571164' edesky_id='2761873'
+                  edesky_text_url='https://edesky.cz/dokument/2761873.txt'
+                  edesky_url='https://edesky.cz/dokument/2761873'
+                  name='138  Obecně závazná vyhláška města Chrudim č. 1/2019 - školské obvody základních škol'
+                  orig_url='http://edeska.chrudim-city.cz/eDeska/eDeskaDetail.jsp?detailId=10133'>
+            <attachments>
+                <attachment contains_text='1' edesky_id='4154162' mimetype='application/pdf'
+                            name='OZV_c._1-2019_skolske_obvody_ZS-UD.pdf'
+                            orig_url='http://edeska.chrudim-city.cz/eDeska/download.jsp?idPriloha=10556'
+                            url='https://edesky.cz/dokument/2761873#priloha_4154162'>
+                </attachment>
+            </attachments>
+        </document>
+
+    </documents>
+</edesky_search_api>

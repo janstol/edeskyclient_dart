@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<edesky_search_api version='1.0'>
+    <meta>
+        <timestamp>2019-03-17 21:43:59 +0100</timestamp>
+        <user>xyz@xyz.com</user>
+        <requested_params>{"id"=>"1", "api_key"=>"xyz", "format"=>"xml"}</requested_params>
+        <dashboards_count>1</dashboards_count>
+    </meta>
+    <dashboards>
+        <dashboard category='samosprava' edesky_id='1' edesky_url='https://edesky.cz/desky/1' name='Město Olomouc'
+                   nuts3_id='28' nuts3_name='Olomoucký kraj' nuts4_id='972' nuts4_name='Okres Olomouc' ovm_ico='299308'
+                   ovm_zkratka='Olomouc' parent_id='972' parent_name='Okres Olomouc' ruian_kod='500496'></dashboard>
+    </dashboards>
+</edesky_search_api>
