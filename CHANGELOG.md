@@ -1,7 +1,9 @@
-## 0.1.0
+## [1.0.0] - 2019-10-11
+* fixed bugs
+* updated dependencies
 
-- fixed meta dependency
+## [0.1.0] - 2019-05-12
+* fixed meta dependency
 
-## 0.0.1
-
-- Initial release
+## [0.0.1] - 2019-03-22
+* initial release

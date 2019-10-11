@@ -1,6 +1,7 @@
 # Edesky client
 
 [![Pub](https://img.shields.io/pub/v/edeskyclient.svg?style=flat-square)](https://pub.dartlang.org/packages/edeskyclient)
+[![Build Status](https://travis-ci.com/janstol/edeskyclient_dart.svg?branch=master)](https://travis-ci.com/janstol/edeskyclient_dart)
 
 Dart client for Czech service [edesky.cz API](https://edesky.cz/api). Supports dashboards and documents querying.
 
@@ -8,16 +9,18 @@ Dart client for Czech service [edesky.cz API](https://edesky.cz/api). Supports d
 
 ```yaml
 dependencies:
-    edeskyclient: ^0.0.1
+    edeskyclient: ^1.0.0
 
 ```
 
 ```dart
 import 'package:edesky/edesky.dart';
+import 'package:http/http.dart';
 
-main() async {
+Future<void> main() async {
   final edesky = EdeskyClient(
     apiKey: 'xyz', //insert your api key
+    httpClient: Client(),
   );
 
   // Fetch all dashboards

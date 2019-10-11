@@ -1,7 +1,9 @@
 import 'package:edeskyclient/edeskyclient.dart';
+import 'package:http/http.dart';
 
-main() async {
+Future<void> main() async {
   final edesky = EdeskyClient(
+    httpClient: Client(),
     apiKey: 'xyz', //insert your api key
   );
 

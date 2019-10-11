@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8' ?>
 <edesky_search_api version='1.0'>
     <meta>
-        <timestamp>2019-03-17 21:43:59 +0100</timestamp>
-        <user>xyz@xyz.com</user>
-        <requested_params>{"id"=>"1", "api_key"=>"xyz", "format"=>"xml"}</requested_params>
+        <timestamp>2019-10-11 13:37:10 +0200</timestamp>
+        <user>example@example.com</user>
+        <requested_params>{"id"=>"1", "api_key"=>"XYZ123abc", "format"=>"xml"}</requested_params>
         <dashboards_count>1</dashboards_count>
     </meta>
     <dashboards>

@@ -4,23 +4,23 @@ import 'package:xml/xml.dart';
 /// Attachment in document
 class Attachment {
   /// Attachment ID
-  String id;
+  final int id;
 
   /// Attachment name/title
-  String name;
+  final String name;
 
   /// Mime type of attachment
-  String mimeType;
+  final String mimeType;
 
   /// Edesky URL
-  String url;
+  final String url;
 
   /// Original attachment URL
-  String origUrl;
+  final String origUrl;
 
-  bool containsText;
+  final bool containsText;
 
-  Attachment({
+  const Attachment({
     @required this.id,
     @required this.name,
     @required this.mimeType,
@@ -29,18 +29,61 @@ class Attachment {
     @required this.containsText,
   });
 
-  /// Creates attachment from parsed XML
-  Attachment.fromXML(XmlElement xml) {
-    id = xml.getAttribute('edesky_id');
-    name = xml.getAttribute('name');
-    mimeType = xml.getAttribute('mimetype');
-    url = xml.getAttribute('edesky_url');
-    origUrl = xml.getAttribute('orig_url');
-    containsText = xml.getAttribute('contains_text') == '1';
+  /// Creates attachment from parsed XML.
+  Attachment.fromXML(XmlElement element)
+      : this(
+          id: int.tryParse(element.getAttribute("edesky_id")),
+          name: element.getAttribute("name"),
+          mimeType: element.getAttribute("mimetype"),
+          url: element.getAttribute("url"),
+          origUrl: element.getAttribute("orig_url"),
+          containsText: element.getAttribute("contains_text") == '1',
+        );
+
+  /// Creates a copy of this attachment but with the given fields replaced with
+  /// the new values.
+  Attachment copyWith({
+    int id,
+    String name,
+    String mimeType,
+    String url,
+    String origUrl,
+    bool containsText,
+  }) {
+    return Attachment(
+      id: id ?? this.id,
+      name: name ?? this.name,
+      mimeType: mimeType ?? this.mimeType,
+      url: url ?? this.url,
+      origUrl: origUrl ?? this.origUrl,
+      containsText: containsText ?? this.containsText,
+    );
+  }
+
+  @override
+  int get hashCode =>
+      id.hashCode ^
+      name.hashCode ^
+      mimeType.hashCode ^
+      url.hashCode ^
+      origUrl.hashCode ^
+      containsText.hashCode;
+
+  @override
+  bool operator ==(Object other) {
+    return identical(this, other) ||
+        other is Attachment &&
+            id == other.id &&
+            name == other.name &&
+            mimeType == other.mimeType &&
+            url == other.url &&
+            origUrl == other.origUrl &&
+            containsText == other.containsText;
   }
 
   @override
   String toString() {
-    return "Attachment[$id, $name, $origUrl, $mimeType, containsText: $containsText]";
+    return "Attachment<$id, $name, $origUrl, $mimeType, "
+        "containsText: $containsText>";
   }
 }

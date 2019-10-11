@@ -1,0 +1,618 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<edesky_search_api version='1.0'>
+    <meta>
+        <timestamp>2019-10-11 13:07:54 +0200</timestamp>
+        <user>example@example.com</user>
+        <requested_params>{"created_from"=>"2019-09-27", "dashboard_id"=>"97", "order"=>"date", "search_with"=>"sql",
+            "api_key"=>"XYZ123abc", "page"=>"1", "format"=>"xml"}
+        </requested_params>
+        <documents_count total='43'>43</documents_count>
+        <page total='1'>1</page>
+    </meta>
+    <documents>
+        <document created_at='2019-10-10 17:10:14 +0200' dashboard_category='samosprava' dashboard_id='97'
+                  dashboard_name='Město Chrudim' dashboard_ovm_ico='270211' dashboard_ovm_zkratka='CHRUDIM'
+                  dashboard_ruian_kod='571164' edesky_id='3312051'
+                  edesky_text_url='https://edesky.cz/dokument/3312051.txt'
+                  edesky_url='https://edesky.cz/dokument/3312051'
+                  name='rozhodnutí - společné povolení (U+S): "Palackého třída, Chrudim - podélné parkování"'
+                  orig_url='http://edeska.chrudim-city.cz/eDeska/eDeskaDetail.jsp?detailId=10787'>
+            <attachments>
+                <attachment contains_text='1' edesky_id='4875071' mimetype='application/pdf' name='2019-002720.pdf'
+                            orig_url='http://edeska.chrudim-city.cz/eDeska/download.jsp?idPriloha=11257'
+                            url='https://edesky.cz/dokument/3312051#priloha_4875071'>
+                </attachment>
+            </attachments>
+        </document>
+        <document created_at='2019-10-10 17:10:14 +0200' dashboard_category='samosprava' dashboard_id='97'
+                  dashboard_name='Město Chrudim' dashboard_ovm_ico='270211' dashboard_ovm_zkratka='CHRUDIM'
+                  dashboard_ruian_kod='571164' edesky_id='3312052'
+                  edesky_text_url='https://edesky.cz/dokument/3312052.txt'
+                  edesky_url='https://edesky.cz/dokument/3312052'
+                  name='oznámení o zahájení řízení - prodloužení, stanoviska: polní cesta C1 Dvakačovice'
+                  orig_url='http://edeska.chrudim-city.cz/eDeska/eDeskaDetail.jsp?detailId=10786'>
+            <attachments>
+                <attachment contains_text='1' edesky_id='4875072' mimetype='application/pdf' name='2019-054381.pdf'
+                            orig_url='http://edeska.chrudim-city.cz/eDeska/download.jsp?idPriloha=11256'
+                            url='https://edesky.cz/dokument/3312052#priloha_4875072'>
+                </attachment>
+            </attachments>
+        </document>
+        <document created_at='2019-10-10 17:10:13 +0200' dashboard_category='samosprava' dashboard_id='97'
+                  dashboard_name='Město Chrudim' dashboard_ovm_ico='270211' dashboard_ovm_zkratka='CHRUDIM'
+                  dashboard_ruian_kod='571164' edesky_id='3312050'
+                  edesky_text_url='https://edesky.cz/dokument/3312050.txt'
+                  edesky_url='https://edesky.cz/dokument/3312050'
+                  name='rozhodnutí - změna stavby před dokončením: "Zaječice - splašková kanalizace" - změna stavby před dok'
+                  orig_url='http://edeska.chrudim-city.cz/eDeska/eDeskaDetail.jsp?detailId=10788'>
+            <attachments>
+                <attachment contains_text='1' edesky_id='4875070' mimetype='application/pdf' name='2019-043290-1.pdf'
+                            orig_url='http://edeska.chrudim-city.cz/eDeska/download.jsp?idPriloha=11258'
+                            url='https://edesky.cz/dokument/3312050#priloha_4875070'>
+                </attachment>
+            </attachments>
+        </document>
+        <document created_at='2019-10-09 17:15:08 +0200' dashboard_category='samosprava' dashboard_id='97'
+                  dashboard_name='Město Chrudim' dashboard_ovm_ico='270211' dashboard_ovm_zkratka='CHRUDIM'
+                  dashboard_ruian_kod='571164' edesky_id='3308622'
+                  edesky_text_url='https://edesky.cz/dokument/3308622.txt'
+                  edesky_url='https://edesky.cz/dokument/3308622'
+                  name='775  Program pro poskytování sportovních dotací města Chrudim'
+                  orig_url='http://edeska.chrudim-city.cz/eDeska/eDeskaDetail.jsp?detailId=10782'>
+            <attachments>
+                <attachment contains_text='1' edesky_id='4870959' mimetype='application/pdf' name='Program_SPORT.pdf'
+                            orig_url='http://edeska.chrudim-city.cz/eDeska/download.jsp?idPriloha=11252'
+                            url='https://edesky.cz/dokument/3308622#priloha_4870959'>
+                </attachment>
+            </attachments>
+        </document>
+        <document created_at='2019-10-09 17:15:07 +0200' dashboard_category='samosprava' dashboard_id='97'
+                  dashboard_name='Město Chrudim' dashboard_ovm_ico='270211' dashboard_ovm_zkratka='CHRUDIM'
+                  dashboard_ruian_kod='571164' edesky_id='3308621'
+                  edesky_text_url='https://edesky.cz/dokument/3308621.txt'
+                  edesky_url='https://edesky.cz/dokument/3308621'
+                  name='ODP - Opatření obecné povahy - přechodná úprava provozu: Stanovení PÚP na silnici II/357, Proseč - l'
+                  orig_url='http://edeska.chrudim-city.cz/eDeska/eDeskaDetail.jsp?detailId=10783'>
+            <attachments>
+                <attachment contains_text='1' edesky_id='4870958' mimetype='application/pdf' name='2019-066925.pdf'
+                            orig_url='http://edeska.chrudim-city.cz/eDeska/download.jsp?idPriloha=11253'
+                            url='https://edesky.cz/dokument/3308621#priloha_4870958'>
+                </attachment>
+            </attachments>
+        </document>
+        <document created_at='2019-10-09 17:15:06 +0200' dashboard_category='samosprava' dashboard_id='97'
+                  dashboard_name='Město Chrudim' dashboard_ovm_ico='270211' dashboard_ovm_zkratka='CHRUDIM'
+                  dashboard_ruian_kod='571164' edesky_id='3308620'
+                  edesky_text_url='https://edesky.cz/dokument/3308620.txt'
+                  edesky_url='https://edesky.cz/dokument/3308620'
+                  name='ODP - Opatření obecné povahy - přechodná úprava provozu: Stanovení PÚP na MK - vodovodní a kanalizač'
+                  orig_url='http://edeska.chrudim-city.cz/eDeska/eDeskaDetail.jsp?detailId=10784'>
+            <attachments>
+                <attachment contains_text='1' edesky_id='4870957' mimetype='application/pdf' name='2019-067124.pdf'
+                            orig_url='http://edeska.chrudim-city.cz/eDeska/download.jsp?idPriloha=11254'
+                            url='https://edesky.cz/dokument/3308620#priloha_4870957'>
+                </attachment>
+            </attachments>
+        </document>
+        <document created_at='2019-10-09 17:15:05 +0200' dashboard_category='samosprava' dashboard_id='97'
+                  dashboard_name='Město Chrudim' dashboard_ovm_ico='270211' dashboard_ovm_zkratka='CHRUDIM'
+                  dashboard_ruian_kod='571164' edesky_id='3308619'
+                  edesky_text_url='https://edesky.cz/dokument/3308619.txt'
+                  edesky_url='https://edesky.cz/dokument/3308619'
+                  name='ODP - Opatření obecné povahy - přechodná úprava provozu: Žádost o stanovení PÚP na silnici III/33752'
+                  orig_url='http://edeska.chrudim-city.cz/eDeska/eDeskaDetail.jsp?detailId=10785'>
+            <attachments>
+                <attachment contains_text='1' edesky_id='4870956' mimetype='application/pdf' name='2019-063814.pdf'
+                            orig_url='http://edeska.chrudim-city.cz/eDeska/download.jsp?idPriloha=11255'
+                            url='https://edesky.cz/dokument/3308619#priloha_4870956'>
+                </attachment>
+            </attachments>
+        </document>
+        <document created_at='2019-10-08 17:12:08 +0200' dashboard_category='samosprava' dashboard_id='97'
+                  dashboard_name='Město Chrudim' dashboard_ovm_ico='270211' dashboard_ovm_zkratka='CHRUDIM'
+                  dashboard_ruian_kod='571164' edesky_id='3306356'
+                  edesky_text_url='https://edesky.cz/dokument/3306356.txt'
+                  edesky_url='https://edesky.cz/dokument/3306356'
+                  name='769  Dražební vyhláška - nemovitosti v k. ú. Hněvětice'
+                  orig_url='http://edeska.chrudim-city.cz/eDeska/eDeskaDetail.jsp?detailId=10776'>
+            <attachments>
+                <attachment contains_text='1' edesky_id='4868309' mimetype='application/pdf' name='Dokument.pdf'
+                            orig_url='http://edeska.chrudim-city.cz/eDeska/download.jsp?idPriloha=11246'
+                            url='https://edesky.cz/dokument/3306356#priloha_4868309'>
+                </attachment>
+            </attachments>
+        </document>
+        <document created_at='2019-10-08 17:12:07 +0200' dashboard_category='samosprava' dashboard_id='97'
+                  dashboard_name='Město Chrudim' dashboard_ovm_ico='270211' dashboard_ovm_zkratka='CHRUDIM'
+                  dashboard_ruian_kod='571164' edesky_id='3306355'
+                  edesky_text_url='https://edesky.cz/dokument/3306355.txt'
+                  edesky_url='https://edesky.cz/dokument/3306355'
+                  name='rozhodnutí - prodloužení platnosti rozhodnutí: Prodloužení platnosti ÚR "Terminál veřejné dopravy v'
+                  orig_url='http://edeska.chrudim-city.cz/eDeska/eDeskaDetail.jsp?detailId=10777'>
+            <attachments>
+                <attachment contains_text='1' edesky_id='4868308' mimetype='application/pdf' name='2019-058132.pdf'
+                            orig_url='http://edeska.chrudim-city.cz/eDeska/download.jsp?idPriloha=11247'
+                            url='https://edesky.cz/dokument/3306355#priloha_4868308'>
+                </attachment>
+            </attachments>
+        </document>
+        <document created_at='2019-10-08 17:12:05 +0200' dashboard_category='samosprava' dashboard_id='97'
+                  dashboard_name='Město Chrudim' dashboard_ovm_ico='270211' dashboard_ovm_zkratka='CHRUDIM'
+                  dashboard_ruian_kod='571164' edesky_id='3306354'
+                  edesky_text_url='https://edesky.cz/dokument/3306354.txt'
+                  edesky_url='https://edesky.cz/dokument/3306354'
+                  name='rozhodnutí - prodloužení platnosti rozhodnutí: ČOV s splašková kanalizace - Úhřetice'
+                  orig_url='http://edeska.chrudim-city.cz/eDeska/eDeskaDetail.jsp?detailId=10778'>
+            <attachments>
+                <attachment contains_text='1' edesky_id='4868307' mimetype='application/pdf' name='2019-043578.pdf'
+                            orig_url='http://edeska.chrudim-city.cz/eDeska/download.jsp?idPriloha=11248'
+                            url='https://edesky.cz/dokument/3306354#priloha_4868307'>
+                </attachment>
+            </attachments>
+        </document>
+        <document created_at='2019-10-08 17:12:01 +0200' dashboard_category='samosprava' dashboard_id='97'
+                  dashboard_name='Město Chrudim' dashboard_ovm_ico='270211' dashboard_ovm_zkratka='CHRUDIM'
+                  dashboard_ruian_kod='571164' edesky_id='3306353'
+                  edesky_text_url='https://edesky.cz/dokument/3306353.txt'
+                  edesky_url='https://edesky.cz/dokument/3306353'
+                  name='ODP - Opatření obecné povahy - přechodná úprava provozu: Stanovení PÚP na MK, Husova, Chrudim - stav'
+                  orig_url='http://edeska.chrudim-city.cz/eDeska/eDeskaDetail.jsp?detailId=10779'>
+            <attachments>
+                <attachment contains_text='1' edesky_id='4868306' mimetype='application/pdf' name='2019-066727.pdf'
+                            orig_url='http://edeska.chrudim-city.cz/eDeska/download.jsp?idPriloha=11249'
+                            url='https://edesky.cz/dokument/3306353#priloha_4868306'>
+                </attachment>
+            </attachments>
+        </document>
+        <document created_at='2019-10-08 17:12:00 +0200' dashboard_category='samosprava' dashboard_id='97'
+                  dashboard_name='Město Chrudim' dashboard_ovm_ico='270211' dashboard_ovm_zkratka='CHRUDIM'
+                  dashboard_ruian_kod='571164' edesky_id='3306352'
+                  edesky_text_url='https://edesky.cz/dokument/3306352.txt'
+                  edesky_url='https://edesky.cz/dokument/3306352'
+                  name='ODP - Opatření obecné povahy - přechodná úprava provozu: Stanovení PÚP na MK a ÚK - rekonstrukce sít'
+                  orig_url='http://edeska.chrudim-city.cz/eDeska/eDeskaDetail.jsp?detailId=10780'>
+            <attachments>
+                <attachment contains_text='1' edesky_id='4868305' mimetype='application/pdf' name='2019-064304.pdf'
+                            orig_url='http://edeska.chrudim-city.cz/eDeska/download.jsp?idPriloha=11250'
+                            url='https://edesky.cz/dokument/3306352#priloha_4868305'>
+                </attachment>
+            </attachments>
+        </document>
+        <document created_at='2019-10-08 17:11:59 +0200' dashboard_category='samosprava' dashboard_id='97'
+                  dashboard_name='Město Chrudim' dashboard_ovm_ico='270211' dashboard_ovm_zkratka='CHRUDIM'
+                  dashboard_ruian_kod='571164' edesky_id='3306351'
+                  edesky_text_url='https://edesky.cz/dokument/3306351.txt'
+                  edesky_url='https://edesky.cz/dokument/3306351'
+                  name='Návrh OOP - MÚP na ÚK (u ZŠ) v ul. V. Nejedlého, Chrudim: MÚP na ÚK v ul. Víta Nejedlého - úprava DZ'
+                  orig_url='http://edeska.chrudim-city.cz/eDeska/eDeskaDetail.jsp?detailId=10781'>
+            <attachments>
+                <attachment contains_text='1' edesky_id='4868304' mimetype='application/pdf' name='2019-041657.pdf'
+                            orig_url='http://edeska.chrudim-city.cz/eDeska/download.jsp?idPriloha=11251'
+                            url='https://edesky.cz/dokument/3306351#priloha_4868304'>
+                </attachment>
+            </attachments>
+        </document>
+        <document created_at='2019-10-07 17:15:51 +0200' dashboard_category='samosprava' dashboard_id='97'
+                  dashboard_name='Město Chrudim' dashboard_ovm_ico='270211' dashboard_ovm_zkratka='CHRUDIM'
+                  dashboard_ruian_kod='571164' edesky_id='3302033'
+                  edesky_text_url='https://edesky.cz/dokument/3302033.txt'
+                  edesky_url='https://edesky.cz/dokument/3302033'
+                  name='765  Oznámení veřejnou vyhláškou - zahájení řízení o změně č. 4 územního plánu Chrudim'
+                  orig_url='http://edeska.chrudim-city.cz/eDeska/eDeskaDetail.jsp?detailId=10772'>
+            <attachments>
+                <attachment contains_text='1' edesky_id='4863172' mimetype='application/pdf' name='vyhlaska.pdf'
+                            orig_url='http://edeska.chrudim-city.cz/eDeska/download.jsp?idPriloha=11242'
+                            url='https://edesky.cz/dokument/3302033#priloha_4863172'>
+                </attachment>
+            </attachments>
+        </document>
+        <document created_at='2019-10-07 17:15:51 +0200' dashboard_category='samosprava' dashboard_id='97'
+                  dashboard_name='Město Chrudim' dashboard_ovm_ico='270211' dashboard_ovm_zkratka='CHRUDIM'
+                  dashboard_ruian_kod='571164' edesky_id='3302034'
+                  edesky_text_url='https://edesky.cz/dokument/3302034.txt'
+                  edesky_url='https://edesky.cz/dokument/3302034'
+                  name='764  Vyhlášení platnosti obnoveného katastrálního operátu na části k. ú. Medlešice'
+                  orig_url='http://edeska.chrudim-city.cz/eDeska/eDeskaDetail.jsp?detailId=10771'>
+            <attachments>
+                <attachment contains_text='1' edesky_id='4863173' mimetype='application/pdf'
+                            name='76117942010_603_PUP62009_obnova511.pdf'
+                            orig_url='http://edeska.chrudim-city.cz/eDeska/download.jsp?idPriloha=11241'
+                            url='https://edesky.cz/dokument/3302034#priloha_4863173'>
+                </attachment>
+            </attachments>
+        </document>
+        <document created_at='2019-10-07 17:15:49 +0200' dashboard_category='samosprava' dashboard_id='97'
+                  dashboard_name='Město Chrudim' dashboard_ovm_ico='270211' dashboard_ovm_zkratka='CHRUDIM'
+                  dashboard_ruian_kod='571164' edesky_id='3302032'
+                  edesky_text_url='https://edesky.cz/dokument/3302032.txt'
+                  edesky_url='https://edesky.cz/dokument/3302032'
+                  name='766  Veřejná vyhláška - návrh zprávy o uplatňování ÚP Úherčice 2019'
+                  orig_url='http://edeska.chrudim-city.cz/eDeska/eDeskaDetail.jsp?detailId=10773'>
+            <attachments>
+                <attachment contains_text='1' edesky_id='4863171' mimetype='application/pdf' name='vyhlaska.pdf'
+                            orig_url='http://edeska.chrudim-city.cz/eDeska/download.jsp?idPriloha=11243'
+                            url='https://edesky.cz/dokument/3302032#priloha_4863171'>
+                </attachment>
+            </attachments>
+        </document>
+        <document created_at='2019-10-07 17:15:47 +0200' dashboard_category='samosprava' dashboard_id='97'
+                  dashboard_name='Město Chrudim' dashboard_ovm_ico='270211' dashboard_ovm_zkratka='CHRUDIM'
+                  dashboard_ruian_kod='571164' edesky_id='3302031'
+                  edesky_text_url='https://edesky.cz/dokument/3302031.txt'
+                  edesky_url='https://edesky.cz/dokument/3302031'
+                  name='ODP - Opatření obecné povahy - přechodná úprava provozu: Stanovení PÚP na MK - oprava povrchu MK, Za'
+                  orig_url='http://edeska.chrudim-city.cz/eDeska/eDeskaDetail.jsp?detailId=10774'>
+            <attachments>
+                <attachment contains_text='1' edesky_id='4863170' mimetype='application/pdf' name='2019-066002.pdf'
+                            orig_url='http://edeska.chrudim-city.cz/eDeska/download.jsp?idPriloha=11244'
+                            url='https://edesky.cz/dokument/3302031#priloha_4863170'>
+                </attachment>
+            </attachments>
+        </document>
+        <document created_at='2019-10-07 17:15:46 +0200' dashboard_category='samosprava' dashboard_id='97'
+                  dashboard_name='Město Chrudim' dashboard_ovm_ico='270211' dashboard_ovm_zkratka='CHRUDIM'
+                  dashboard_ruian_kod='571164' edesky_id='3302030'
+                  edesky_text_url='https://edesky.cz/dokument/3302030.txt'
+                  edesky_url='https://edesky.cz/dokument/3302030'
+                  name='ODP - Návrh opatření obecné povahy na místní úpravu provozu: Stanovení MÚP na MK, Zaječice - vodorov'
+                  orig_url='http://edeska.chrudim-city.cz/eDeska/eDeskaDetail.jsp?detailId=10775'>
+            <attachments>
+                <attachment contains_text='1' edesky_id='4863169' mimetype='application/pdf' name='2018-081712.pdf'
+                            orig_url='http://edeska.chrudim-city.cz/eDeska/download.jsp?idPriloha=11245'
+                            url='https://edesky.cz/dokument/3302030#priloha_4863169'>
+                </attachment>
+            </attachments>
+        </document>
+        <document created_at='2019-10-04 17:19:07 +0200' dashboard_category='samosprava' dashboard_id='97'
+                  dashboard_name='Město Chrudim' dashboard_ovm_ico='270211' dashboard_ovm_zkratka='CHRUDIM'
+                  dashboard_ruian_kod='571164' edesky_id='3299407'
+                  edesky_text_url='https://edesky.cz/dokument/3299407.txt'
+                  edesky_url='https://edesky.cz/dokument/3299407'
+                  name='ODP - Opatření obecné povahy - přechodná úprava provozu: Stanovení PÚP na silnici III/358 26, Vrbatů'
+                  orig_url='http://edeska.chrudim-city.cz/eDeska/eDeskaDetail.jsp?detailId=10769'>
+            <attachments>
+                <attachment contains_text='1' edesky_id='4860069' mimetype='application/pdf' name='2019-065896.pdf'
+                            orig_url='http://edeska.chrudim-city.cz/eDeska/download.jsp?idPriloha=11239'
+                            url='https://edesky.cz/dokument/3299407#priloha_4860069'>
+                </attachment>
+            </attachments>
+        </document>
+        <document created_at='2019-10-04 17:19:06 +0200' dashboard_category='samosprava' dashboard_id='97'
+                  dashboard_name='Město Chrudim' dashboard_ovm_ico='270211' dashboard_ovm_zkratka='CHRUDIM'
+                  dashboard_ruian_kod='571164' edesky_id='3299406'
+                  edesky_text_url='https://edesky.cz/dokument/3299406.txt'
+                  edesky_url='https://edesky.cz/dokument/3299406'
+                  name='ODP - Opatření obecné povahy - přechodná úprava provozu: Stanovení PÚP na ÚK, Bítovany - vod. řad a'
+                  orig_url='http://edeska.chrudim-city.cz/eDeska/eDeskaDetail.jsp?detailId=10770'>
+            <attachments>
+                <attachment contains_text='1' edesky_id='4860068' mimetype='application/pdf' name='2019-065801.pdf'
+                            orig_url='http://edeska.chrudim-city.cz/eDeska/download.jsp?idPriloha=11240'
+                            url='https://edesky.cz/dokument/3299406#priloha_4860068'>
+                </attachment>
+            </attachments>
+        </document>
+        <document created_at='2019-10-03 17:19:33 +0200' dashboard_category='samosprava' dashboard_id='97'
+                  dashboard_name='Město Chrudim' dashboard_ovm_ico='270211' dashboard_ovm_zkratka='CHRUDIM'
+                  dashboard_ruian_kod='571164' edesky_id='3297490'
+                  edesky_text_url='https://edesky.cz/dokument/3297490.txt'
+                  edesky_url='https://edesky.cz/dokument/3297490' name='759  Usnesení o odročení dražebního jednání'
+                  orig_url='http://edeska.chrudim-city.cz/eDeska/eDeskaDetail.jsp?detailId=10766'>
+            <attachments>
+                <attachment contains_text='1' edesky_id='4857644' mimetype='application/pdf'
+                            name='Usneseni_o_odroceni_drazby_01.10.2019_1411_signed_.pdf'
+                            orig_url='http://edeska.chrudim-city.cz/eDeska/download.jsp?idPriloha=11236'
+                            url='https://edesky.cz/dokument/3297490#priloha_4857644'>
+                </attachment>
+            </attachments>
+        </document>
+        <document created_at='2019-10-03 17:19:32 +0200' dashboard_category='samosprava' dashboard_id='97'
+                  dashboard_name='Město Chrudim' dashboard_ovm_ico='270211' dashboard_ovm_zkratka='CHRUDIM'
+                  dashboard_ruian_kod='571164' edesky_id='3297488'
+                  edesky_text_url='https://edesky.cz/dokument/3297488.txt'
+                  edesky_url='https://edesky.cz/dokument/3297488'
+                  name='ODP - Opatření obecné povahy - přechodná úprava provozu: Stanovení PÚP na silnici III/355 14, Rosice'
+                  orig_url='http://edeska.chrudim-city.cz/eDeska/eDeskaDetail.jsp?detailId=10768'>
+            <attachments>
+                <attachment contains_text='1' edesky_id='4857642' mimetype='application/pdf' name='2019-064798.pdf'
+                            orig_url='http://edeska.chrudim-city.cz/eDeska/download.jsp?idPriloha=11238'
+                            url='https://edesky.cz/dokument/3297488#priloha_4857642'>
+                </attachment>
+            </attachments>
+        </document>
+        <document created_at='2019-10-03 17:19:32 +0200' dashboard_category='samosprava' dashboard_id='97'
+                  dashboard_name='Město Chrudim' dashboard_ovm_ico='270211' dashboard_ovm_zkratka='CHRUDIM'
+                  dashboard_ruian_kod='571164' edesky_id='3297489'
+                  edesky_text_url='https://edesky.cz/dokument/3297489.txt'
+                  edesky_url='https://edesky.cz/dokument/3297489'
+                  name='760  Výběrové řízení na zjištění zájemce o koupi majetku ve vlastnictví státu - k. ú. Neratov'
+                  orig_url='http://edeska.chrudim-city.cz/eDeska/eDeskaDetail.jsp?detailId=10767'>
+            <attachments>
+                <attachment contains_text='1' edesky_id='4857643'
+                            mimetype='application/vnd.openxmlformats-officedocument.wordprocessingml.document'
+                            name='inzerat_.docx'
+                            orig_url='http://edeska.chrudim-city.cz/eDeska/download.jsp?idPriloha=11237'
+                            url='https://edesky.cz/dokument/3297489#priloha_4857643'>
+                </attachment>
+            </attachments>
+        </document>
+        <document created_at='2019-10-02 17:18:18 +0200' dashboard_category='samosprava' dashboard_id='97'
+                  dashboard_name='Město Chrudim' dashboard_ovm_ico='270211' dashboard_ovm_zkratka='CHRUDIM'
+                  dashboard_ruian_kod='571164' edesky_id='3295035'
+                  edesky_text_url='https://edesky.cz/dokument/3295035.txt'
+                  edesky_url='https://edesky.cz/dokument/3295035'
+                  name='753  Výběrové řízení - referent úseku vnitřních věcí Odboru správního'
+                  orig_url='http://edeska.chrudim-city.cz/eDeska/eDeskaDetail.jsp?detailId=10760'>
+            <attachments>
+                <attachment contains_text='1' edesky_id='4854408' mimetype='application/msword'
+                            name='Oznameni_o_vyhlaseni_VR_-_OSP_usek_vnitrnich_veci_2019.doc'
+                            orig_url='http://edeska.chrudim-city.cz/eDeska/download.jsp?idPriloha=11230'
+                            url='https://edesky.cz/dokument/3295035#priloha_4854408'>
+                </attachment>
+            </attachments>
+        </document>
+        <document created_at='2019-10-02 17:18:17 +0200' dashboard_category='samosprava' dashboard_id='97'
+                  dashboard_name='Město Chrudim' dashboard_ovm_ico='270211' dashboard_ovm_zkratka='CHRUDIM'
+                  dashboard_ruian_kod='571164' edesky_id='3295034'
+                  edesky_text_url='https://edesky.cz/dokument/3295034.txt'
+                  edesky_url='https://edesky.cz/dokument/3295034'
+                  name='754  Výběrové řízení na zjištění zájemce o koupi majetku ve vlastnictví státu - k. ú. Rychnov'
+                  orig_url='http://edeska.chrudim-city.cz/eDeska/eDeskaDetail.jsp?detailId=10761'>
+            <attachments>
+                <attachment contains_text='1' edesky_id='4854407' mimetype='application/pdf' name='inzerat.pdf'
+                            orig_url='http://edeska.chrudim-city.cz/eDeska/download.jsp?idPriloha=11231'
+                            url='https://edesky.cz/dokument/3295034#priloha_4854407'>
+                </attachment>
+            </attachments>
+        </document>
+        <document created_at='2019-10-02 17:18:16 +0200' dashboard_category='samosprava' dashboard_id='97'
+                  dashboard_name='Město Chrudim' dashboard_ovm_ico='270211' dashboard_ovm_zkratka='CHRUDIM'
+                  dashboard_ruian_kod='571164' edesky_id='3295032'
+                  edesky_text_url='https://edesky.cz/dokument/3295032.txt'
+                  edesky_url='https://edesky.cz/dokument/3295032'
+                  name='ODP - Opatření obecné povahy - přechodná úprava provozu: Stanovení PÚP na silnici III/340 26 - povrc'
+                  orig_url='http://edeska.chrudim-city.cz/eDeska/eDeskaDetail.jsp?detailId=10763'>
+            <attachments>
+                <attachment contains_text='1' edesky_id='4854405' mimetype='application/pdf' name='2019-065162.pdf'
+                            orig_url='http://edeska.chrudim-city.cz/eDeska/download.jsp?idPriloha=11233'
+                            url='https://edesky.cz/dokument/3295032#priloha_4854405'>
+                </attachment>
+            </attachments>
+        </document>
+        <document created_at='2019-10-02 17:18:16 +0200' dashboard_category='samosprava' dashboard_id='97'
+                  dashboard_name='Město Chrudim' dashboard_ovm_ico='270211' dashboard_ovm_zkratka='CHRUDIM'
+                  dashboard_ruian_kod='571164' edesky_id='3295033'
+                  edesky_text_url='https://edesky.cz/dokument/3295033.txt'
+                  edesky_url='https://edesky.cz/dokument/3295033'
+                  name='755  Dražební vyhláška - nemovitosti v k. ú. Chrudim'
+                  orig_url='http://edeska.chrudim-city.cz/eDeska/eDeskaDetail.jsp?detailId=10762'>
+            <attachments>
+                <attachment contains_text='1' edesky_id='4854406' mimetype='application/pdf' name='180020684.pdf'
+                            orig_url='http://edeska.chrudim-city.cz/eDeska/download.jsp?idPriloha=11232'
+                            url='https://edesky.cz/dokument/3295033#priloha_4854406'>
+                </attachment>
+            </attachments>
+        </document>
+        <document created_at='2019-10-02 17:18:15 +0200' dashboard_category='samosprava' dashboard_id='97'
+                  dashboard_name='Město Chrudim' dashboard_ovm_ico='270211' dashboard_ovm_zkratka='CHRUDIM'
+                  dashboard_ruian_kod='571164' edesky_id='3295031'
+                  edesky_text_url='https://edesky.cz/dokument/3295031.txt'
+                  edesky_url='https://edesky.cz/dokument/3295031'
+                  name='ODP - Opatření obecné povahy - přechodná úprava provozu: Stanovení PÚP na silnici III/358 14, III/35'
+                  orig_url='http://edeska.chrudim-city.cz/eDeska/eDeskaDetail.jsp?detailId=10764'>
+            <attachments>
+                <attachment contains_text='1' edesky_id='4854404' mimetype='application/pdf' name='2019-065156.pdf'
+                            orig_url='http://edeska.chrudim-city.cz/eDeska/download.jsp?idPriloha=11234'
+                            url='https://edesky.cz/dokument/3295031#priloha_4854404'>
+                </attachment>
+            </attachments>
+        </document>
+        <document created_at='2019-10-02 17:18:14 +0200' dashboard_category='samosprava' dashboard_id='97'
+                  dashboard_name='Město Chrudim' dashboard_ovm_ico='270211' dashboard_ovm_zkratka='CHRUDIM'
+                  dashboard_ruian_kod='571164' edesky_id='3295030'
+                  edesky_text_url='https://edesky.cz/dokument/3295030.txt'
+                  edesky_url='https://edesky.cz/dokument/3295030'
+                  name='ODP - Opatření obecné povahy - přechodná úprava provozu: Stanovení PÚP na MK - kanalizační přípojky'
+                  orig_url='http://edeska.chrudim-city.cz/eDeska/eDeskaDetail.jsp?detailId=10765'>
+            <attachments>
+                <attachment contains_text='1' edesky_id='4854403' mimetype='application/pdf' name='2019-065153.pdf'
+                            orig_url='http://edeska.chrudim-city.cz/eDeska/download.jsp?idPriloha=11235'
+                            url='https://edesky.cz/dokument/3295030#priloha_4854403'>
+                </attachment>
+            </attachments>
+        </document>
+        <document created_at='2019-10-01 17:13:18 +0200' dashboard_category='samosprava' dashboard_id='97'
+                  dashboard_name='Město Chrudim' dashboard_ovm_ico='270211' dashboard_ovm_zkratka='CHRUDIM'
+                  dashboard_ruian_kod='571164' edesky_id='3293057'
+                  edesky_text_url='https://edesky.cz/dokument/3293057.txt'
+                  edesky_url='https://edesky.cz/dokument/3293057'
+                  name='ODP - Opatření obecné povahy - přechodná úprava provozu: Stanovení PÚP - MK - vodovodní přípojka, Me'
+                  orig_url='http://edeska.chrudim-city.cz/eDeska/eDeskaDetail.jsp?detailId=10755'>
+            <attachments>
+                <attachment contains_text='1' edesky_id='4851951' mimetype='application/pdf' name='2019-065094.pdf'
+                            orig_url='http://edeska.chrudim-city.cz/eDeska/download.jsp?idPriloha=11225'
+                            url='https://edesky.cz/dokument/3293057#priloha_4851951'>
+                </attachment>
+            </attachments>
+        </document>
+        <document created_at='2019-10-01 17:13:17 +0200' dashboard_category='samosprava' dashboard_id='97'
+                  dashboard_name='Město Chrudim' dashboard_ovm_ico='270211' dashboard_ovm_zkratka='CHRUDIM'
+                  dashboard_ruian_kod='571164' edesky_id='3293056'
+                  edesky_text_url='https://edesky.cz/dokument/3293056.txt'
+                  edesky_url='https://edesky.cz/dokument/3293056'
+                  name='ODP - Opatření obecné povahy - místní úprava provozu: Stanovení MÚP, most ev. č. 32265-1, Blížňovice'
+                  orig_url='http://edeska.chrudim-city.cz/eDeska/eDeskaDetail.jsp?detailId=10756'>
+            <attachments>
+                <attachment contains_text='1' edesky_id='4851950' mimetype='application/pdf' name='2019-039436.pdf'
+                            orig_url='http://edeska.chrudim-city.cz/eDeska/download.jsp?idPriloha=11226'
+                            url='https://edesky.cz/dokument/3293056#priloha_4851950'>
+                </attachment>
+            </attachments>
+        </document>
+        <document created_at='2019-10-01 17:13:16 +0200' dashboard_category='samosprava' dashboard_id='97'
+                  dashboard_name='Město Chrudim' dashboard_ovm_ico='270211' dashboard_ovm_zkratka='CHRUDIM'
+                  dashboard_ruian_kod='571164' edesky_id='3293055'
+                  edesky_text_url='https://edesky.cz/dokument/3293055.txt'
+                  edesky_url='https://edesky.cz/dokument/3293055'
+                  name='ODP - Opatření obecné povahy - místní úprava provozu: Stanovení MÚP na MK, Za Pivovarem, Chrudim - r'
+                  orig_url='http://edeska.chrudim-city.cz/eDeska/eDeskaDetail.jsp?detailId=10757'>
+            <attachments>
+                <attachment contains_text='1' edesky_id='4851949' mimetype='application/pdf' name='2019-039566.pdf'
+                            orig_url='http://edeska.chrudim-city.cz/eDeska/download.jsp?idPriloha=11227'
+                            url='https://edesky.cz/dokument/3293055#priloha_4851949'>
+                </attachment>
+            </attachments>
+        </document>
+        <document created_at='2019-10-01 17:13:15 +0200' dashboard_category='samosprava' dashboard_id='97'
+                  dashboard_name='Město Chrudim' dashboard_ovm_ico='270211' dashboard_ovm_zkratka='CHRUDIM'
+                  dashboard_ruian_kod='571164' edesky_id='3293054'
+                  edesky_text_url='https://edesky.cz/dokument/3293054.txt'
+                  edesky_url='https://edesky.cz/dokument/3293054'
+                  name='ODP - Opatření obecné povahy - místní úprava provozu: Stanovení MÚP na silnici III/358 17 a ÚK, Luka'
+                  orig_url='http://edeska.chrudim-city.cz/eDeska/eDeskaDetail.jsp?detailId=10758'>
+            <attachments>
+                <attachment contains_text='1' edesky_id='4851948' mimetype='application/pdf' name='2019-039674.pdf'
+                            orig_url='http://edeska.chrudim-city.cz/eDeska/download.jsp?idPriloha=11228'
+                            url='https://edesky.cz/dokument/3293054#priloha_4851948'>
+                </attachment>
+            </attachments>
+        </document>
+        <document created_at='2019-10-01 17:13:14 +0200' dashboard_category='samosprava' dashboard_id='97'
+                  dashboard_name='Město Chrudim' dashboard_ovm_ico='270211' dashboard_ovm_zkratka='CHRUDIM'
+                  dashboard_ruian_kod='571164' edesky_id='3293053'
+                  edesky_text_url='https://edesky.cz/dokument/3293053.txt'
+                  edesky_url='https://edesky.cz/dokument/3293053'
+                  name='Opatření - PÚP na silnici III/340 25 v ul. Rubešova, Chrudim: PÚP na III/340 25 v ul. Rubešova (změn'
+                  orig_url='http://edeska.chrudim-city.cz/eDeska/eDeskaDetail.jsp?detailId=10759'>
+            <attachments>
+                <attachment contains_text='1' edesky_id='4851947' mimetype='application/pdf' name='2019-060591.pdf'
+                            orig_url='http://edeska.chrudim-city.cz/eDeska/download.jsp?idPriloha=11229'
+                            url='https://edesky.cz/dokument/3293053#priloha_4851947'>
+                </attachment>
+            </attachments>
+        </document>
+        <document created_at='2019-09-30 17:13:28 +0200' dashboard_category='samosprava' dashboard_id='97'
+                  dashboard_name='Město Chrudim' dashboard_ovm_ico='270211' dashboard_ovm_zkratka='CHRUDIM'
+                  dashboard_ruian_kod='571164' edesky_id='3290027'
+                  edesky_text_url='https://edesky.cz/dokument/3290027.txt'
+                  edesky_url='https://edesky.cz/dokument/3290027' name='746  Usnesení o odročení dražebního jednání'
+                  orig_url='http://edeska.chrudim-city.cz/eDeska/eDeskaDetail.jsp?detailId=10753'>
+            <attachments>
+                <attachment contains_text='1' edesky_id='4848049' mimetype='application/pdf' name='1503413158.pdf'
+                            orig_url='http://edeska.chrudim-city.cz/eDeska/download.jsp?idPriloha=11223'
+                            url='https://edesky.cz/dokument/3290027#priloha_4848049'>
+                </attachment>
+            </attachments>
+        </document>
+        <document created_at='2019-09-30 17:13:28 +0200' dashboard_category='samosprava' dashboard_id='97'
+                  dashboard_name='Město Chrudim' dashboard_ovm_ico='270211' dashboard_ovm_zkratka='CHRUDIM'
+                  dashboard_ruian_kod='571164' edesky_id='3290028'
+                  edesky_text_url='https://edesky.cz/dokument/3290028.txt'
+                  edesky_url='https://edesky.cz/dokument/3290028' name='745  Usnesení o odročení dražební vyhlášky'
+                  orig_url='http://edeska.chrudim-city.cz/eDeska/eDeskaDetail.jsp?detailId=10752'>
+            <attachments>
+                <attachment contains_text='1' edesky_id='4848050' mimetype='application/pdf' name='1503413157.pdf'
+                            orig_url='http://edeska.chrudim-city.cz/eDeska/download.jsp?idPriloha=11222'
+                            url='https://edesky.cz/dokument/3290028#priloha_4848050'>
+                </attachment>
+            </attachments>
+        </document>
+        <document created_at='2019-09-30 17:13:27 +0200' dashboard_category='samosprava' dashboard_id='97'
+                  dashboard_name='Město Chrudim' dashboard_ovm_ico='270211' dashboard_ovm_zkratka='CHRUDIM'
+                  dashboard_ruian_kod='571164' edesky_id='3290026'
+                  edesky_text_url='https://edesky.cz/dokument/3290026.txt'
+                  edesky_url='https://edesky.cz/dokument/3290026' name='747  Usnesení o zrušení dražby'
+                  orig_url='http://edeska.chrudim-city.cz/eDeska/eDeskaDetail.jsp?detailId=10754'>
+            <attachments>
+                <attachment contains_text='1' edesky_id='4848048' mimetype='application/pdf'
+                            name='U33321-09-0261-190930071249.pdf'
+                            orig_url='http://edeska.chrudim-city.cz/eDeska/download.jsp?idPriloha=11224'
+                            url='https://edesky.cz/dokument/3290026#priloha_4848048'>
+                </attachment>
+            </attachments>
+        </document>
+        <document created_at='2019-09-27 17:18:06 +0200' dashboard_category='samosprava' dashboard_id='97'
+                  dashboard_name='Město Chrudim' dashboard_ovm_ico='270211' dashboard_ovm_zkratka='CHRUDIM'
+                  dashboard_ruian_kod='571164' edesky_id='3286783'
+                  edesky_text_url='https://edesky.cz/dokument/3286783.txt'
+                  edesky_url='https://edesky.cz/dokument/3286783'
+                  name='739  Dražební vyhláška - nemovitosti v k. ú. Vyžice'
+                  orig_url='http://edeska.chrudim-city.cz/eDeska/eDeskaDetail.jsp?detailId=10746'>
+            <attachments>
+                <attachment contains_text='1' edesky_id='4844106' mimetype='application/pdf' name='1800061104.pdf'
+                            orig_url='http://edeska.chrudim-city.cz/eDeska/download.jsp?idPriloha=11216'
+                            url='https://edesky.cz/dokument/3286783#priloha_4844106'>
+                </attachment>
+            </attachments>
+        </document>
+        <document created_at='2019-09-27 17:18:04 +0200' dashboard_category='samosprava' dashboard_id='97'
+                  dashboard_name='Město Chrudim' dashboard_ovm_ico='270211' dashboard_ovm_zkratka='CHRUDIM'
+                  dashboard_ruian_kod='571164' edesky_id='3286782'
+                  edesky_text_url='https://edesky.cz/dokument/3286782.txt'
+                  edesky_url='https://edesky.cz/dokument/3286782'
+                  name='ODP - Opatření obecné povahy - místní úprava provozu: Stanovení MÚP na ÚK, ul. Malecká, Chrudim - sn'
+                  orig_url='http://edeska.chrudim-city.cz/eDeska/eDeskaDetail.jsp?detailId=10747'>
+            <attachments>
+                <attachment contains_text='1' edesky_id='4844105' mimetype='application/pdf' name='2019-045386.pdf'
+                            orig_url='http://edeska.chrudim-city.cz/eDeska/download.jsp?idPriloha=11217'
+                            url='https://edesky.cz/dokument/3286782#priloha_4844105'>
+                </attachment>
+            </attachments>
+        </document>
+        <document created_at='2019-09-27 17:18:02 +0200' dashboard_category='samosprava' dashboard_id='97'
+                  dashboard_name='Město Chrudim' dashboard_ovm_ico='270211' dashboard_ovm_zkratka='CHRUDIM'
+                  dashboard_ruian_kod='571164' edesky_id='3286781'
+                  edesky_text_url='https://edesky.cz/dokument/3286781.txt'
+                  edesky_url='https://edesky.cz/dokument/3286781'
+                  name='ODP - Opatření obecné povahy - místní úprava provozu: Stanovení MÚP na ÚK, ul. Tovární, Chrudim - sn'
+                  orig_url='http://edeska.chrudim-city.cz/eDeska/eDeskaDetail.jsp?detailId=10748'>
+            <attachments>
+                <attachment contains_text='1' edesky_id='4844104' mimetype='application/pdf' name='2019-045385.pdf'
+                            orig_url='http://edeska.chrudim-city.cz/eDeska/download.jsp?idPriloha=11218'
+                            url='https://edesky.cz/dokument/3286781#priloha_4844104'>
+                </attachment>
+            </attachments>
+        </document>
+        <document created_at='2019-09-27 17:18:01 +0200' dashboard_category='samosprava' dashboard_id='97'
+                  dashboard_name='Město Chrudim' dashboard_ovm_ico='270211' dashboard_ovm_zkratka='CHRUDIM'
+                  dashboard_ruian_kod='571164' edesky_id='3286780'
+                  edesky_text_url='https://edesky.cz/dokument/3286780.txt'
+                  edesky_url='https://edesky.cz/dokument/3286780'
+                  name='ODP - Opatření obecné povahy - přechodná úprava provozu: Stanovení PÚP na silnici č. III/337 37, ul.'
+                  orig_url='http://edeska.chrudim-city.cz/eDeska/eDeskaDetail.jsp?detailId=10749'>
+            <attachments>
+                <attachment contains_text='1' edesky_id='4844103' mimetype='application/pdf' name='2019-064273.pdf'
+                            orig_url='http://edeska.chrudim-city.cz/eDeska/download.jsp?idPriloha=11219'
+                            url='https://edesky.cz/dokument/3286780#priloha_4844103'>
+                </attachment>
+            </attachments>
+        </document>
+        <document created_at='2019-09-27 17:18:00 +0200' dashboard_category='samosprava' dashboard_id='97'
+                  dashboard_name='Město Chrudim' dashboard_ovm_ico='270211' dashboard_ovm_zkratka='CHRUDIM'
+                  dashboard_ruian_kod='571164' edesky_id='3286779'
+                  edesky_text_url='https://edesky.cz/dokument/3286779.txt'
+                  edesky_url='https://edesky.cz/dokument/3286779'
+                  name='ODP - Opatření obecné povahy - přechodná úprava provozu: Stanovení PÚP na MK - reko NTL a STL - ÚU Č'
+                  orig_url='http://edeska.chrudim-city.cz/eDeska/eDeskaDetail.jsp?detailId=10750'>
+            <attachments>
+                <attachment contains_text='1' edesky_id='4844102' mimetype='application/pdf' name='2019-059337.pdf'
+                            orig_url='http://edeska.chrudim-city.cz/eDeska/download.jsp?idPriloha=11220'
+                            url='https://edesky.cz/dokument/3286779#priloha_4844102'>
+                </attachment>
+            </attachments>
+        </document>
+        <document created_at='2019-09-27 17:17:59 +0200' dashboard_category='samosprava' dashboard_id='97'
+                  dashboard_name='Město Chrudim' dashboard_ovm_ico='270211' dashboard_ovm_zkratka='CHRUDIM'
+                  dashboard_ruian_kod='571164' edesky_id='3286778'
+                  edesky_text_url='https://edesky.cz/dokument/3286778.txt'
+                  edesky_url='https://edesky.cz/dokument/3286778'
+                  name='ODP - Návrh OOP MÚP - po projednání: Stanovení MÚP na MK, Bylany - č. P2 a č. P6 - křižovatka MK'
+                  orig_url='http://edeska.chrudim-city.cz/eDeska/eDeskaDetail.jsp?detailId=10751'>
+            <attachments>
+                <attachment contains_text='1' edesky_id='4844101' mimetype='application/pdf' name='2019-059781.pdf'
+                            orig_url='http://edeska.chrudim-city.cz/eDeska/download.jsp?idPriloha=11221'
+                            url='https://edesky.cz/dokument/3286778#priloha_4844101'>
+                </attachment>
+            </attachments>
+        </document>
+    </documents>
+</edesky_search_api>

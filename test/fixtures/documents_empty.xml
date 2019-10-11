@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edesky_search_api version="1.0">
+    <meta>
+        <timestamp>2019-10-11 14:00:46 +0200</timestamp>
+        <user>example@example.com</user>
+        <requested_params>{"keywords"=>"hjkggkghk", "created_from"=>"2019-09-27", "order"=>"date", "search_with"=>"sql",
+            "api_key"=>"XYZ123abc", "page"=>"1", "format"=>"xml"}
+        </requested_params>
+        <documents_count total="0">0</documents_count>
+        <page total="1">1</page>
+    </meta>
+    <documents>
+
+    </documents>
+</edesky_search_api>
