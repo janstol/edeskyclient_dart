@@ -45,15 +45,15 @@ class Document {
   /// Creates document from parsed XML.
   Document.fromXML(XmlElement element)
       : this(
-          id: int.tryParse(element.getAttribute("edesky_id")),
-          name: element.getAttribute("name"),
-          createdAt: element.getAttribute("created_at"),
-          url: element.getAttribute("edesky_url"),
-          origUrl: element.getAttribute("orig_url"),
-          textUrl: element.getAttribute("edesky_text_url"),
-          dashboardId: int.tryParse(element.getAttribute("dashboard_id")),
+          id: int.tryParse(element.getAttribute('edesky_id')),
+          name: element.getAttribute('name'),
+          createdAt: element.getAttribute('created_at'),
+          url: element.getAttribute('edesky_url'),
+          origUrl: element.getAttribute('orig_url'),
+          textUrl: element.getAttribute('edesky_text_url'),
+          dashboardId: int.tryParse(element.getAttribute('dashboard_id')),
           attachments: element
-              .findAllElements("attachment")
+              .findAllElements('attachment')
               .map((el) => Attachment.fromXML(el))
               .toList(),
         );
@@ -112,6 +112,6 @@ class Document {
 
   @override
   String toString() {
-    return "Document($id, $name, $url, att: $attachments)";
+    return 'Document($id, $name, $url, att: $attachments)';
   }
 }

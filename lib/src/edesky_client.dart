@@ -27,11 +27,11 @@ class EdeskyClient {
   ///
   /// Throws [EdeskyClientException] when response status code is not 200.
   Future<Dashboard> queryDashboard(int id) async {
-    final response = await _queryGet(_createUrl("dashboards", {"id": "$id"}));
+    final response = await _queryGet(_createUrl('dashboards', {'id': '$id'}));
 
     return xml
         .parse(utf8.decode(response.bodyBytes))
-        .findAllElements("dashboard")
+        .findAllElements('dashboard')
         .map((d) => Dashboard.fromXML(d))
         .single;
   }
@@ -40,7 +40,7 @@ class EdeskyClient {
   ///
   /// Throws [EdeskyClientException] when response status code is not 200.
   Future<List<Dashboard>> queryDashboards() async {
-    final response = await _queryGet(_createUrl("dashboards"));
+    final response = await _queryGet(_createUrl('dashboards'));
 
     return xml
         .parse(utf8.decode(response.bodyBytes))
@@ -63,21 +63,21 @@ class EdeskyClient {
   /// Throws [EdeskyClientException] when response status code is not 200.
   Future<List<Document>> queryDocuments({
     @required String keywords,
-    String searchWith = "es",
+    String searchWith = 'es',
     String createdFrom,
     int dashboardId,
     int includeTexts = 0,
-    String order = "score",
+    String order = 'score',
     int page = 1,
   }) async {
     final params = <String, String>{
-      "keywords": keywords,
-      "search_with": searchWith,
-      "created_from": createdFrom,
-      "dashboard_id": dashboardId?.toString(),
-      "include_texts": includeTexts.toString(),
-      "order": order,
-      "page": page.toString(),
+      'keywords': keywords,
+      'search_with': searchWith,
+      'created_from': createdFrom,
+      'dashboard_id': dashboardId?.toString(),
+      'include_texts': includeTexts.toString(),
+      'order': order,
+      'page': page.toString(),
     };
     final response = await _queryGet(_createUrl('documents', params));
 
@@ -104,7 +104,7 @@ class EdeskyClient {
     try {
       response = await httpClient.get(requestUrl);
     } on Exception catch (e) {
-      throw EdeskyClientException("$e");
+      throw EdeskyClientException('$e');
     }
 
     if (response.statusCode == HttpStatus.ok) {
@@ -118,12 +118,12 @@ class EdeskyClient {
   String _createUrl(String path, [Map<String, String> parameters]) {
     final params = <String, String>{};
 
-    params.addAll({"api_key": apiKey}); //add required api key
+    params.addAll({'api_key': apiKey}); //add required api key
     if (parameters != null && parameters.isNotEmpty) {
       params.addAll(parameters);
     }
 
-    return Uri.https("edesky.cz", "/api/v1/$path", params).toString();
+    return Uri.https('edesky.cz', '/api/v1/$path', params).toString();
   }
 
   /// Parses errors text for exceptions
@@ -131,12 +131,12 @@ class EdeskyClient {
     final responseBody = utf8.decode(response.bodyBytes);
 
     try {
-      return xml.parse(responseBody).findAllElements("error").first.text;
+      return xml.parse(responseBody).findAllElements('error').first.text;
     } on Exception catch (_) {
       return responseBody;
     }
   }
 
   @override
-  String toString() => "EdeskyClient(httClient: $httpClient, apiKey: $apiKey)";
+  String toString() => 'EdeskyClient(httClient: $httpClient, apiKey: $apiKey)';
 }

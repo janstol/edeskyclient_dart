@@ -67,19 +67,19 @@ class Dashboard {
   /// Creates dashboard from parsed XML.
   Dashboard.fromXML(XmlElement element)
       : this(
-          id: int.tryParse(element.getAttribute("edesky_id")),
-          name: element.getAttribute("name"),
-          category: element.getAttribute("category"),
-          url: element.getAttribute("edesky_url"),
-          nuts3Id: int.tryParse(element.getAttribute("nuts3_id") ?? ""),
-          nuts3Name: element.getAttribute("nuts3_name"),
-          nuts4Id: int.tryParse(element.getAttribute("nuts4_id") ?? ""),
-          nuts4Name: element.getAttribute("nuts4_name"),
-          ico: int.tryParse(element.getAttribute("ovm_ico") ?? ""),
-          abbreviation: element.getAttribute("ovm_zkratka"),
-          parentId: int.tryParse(element.getAttribute("parent_id") ?? ""),
-          parentName: element.getAttribute("parent_name"),
-          ruianCode: int.tryParse(element.getAttribute("ruian_kod") ?? ""),
+          id: int.tryParse(element.getAttribute('edesky_id')),
+          name: element.getAttribute('name'),
+          category: element.getAttribute('category'),
+          url: element.getAttribute('edesky_url'),
+          nuts3Id: int.tryParse(element.getAttribute('nuts3_id') ?? ''),
+          nuts3Name: element.getAttribute('nuts3_name'),
+          nuts4Id: int.tryParse(element.getAttribute('nuts4_id') ?? ''),
+          nuts4Name: element.getAttribute('nuts4_name'),
+          ico: int.tryParse(element.getAttribute('ovm_ico') ?? ''),
+          abbreviation: element.getAttribute('ovm_zkratka'),
+          parentId: int.tryParse(element.getAttribute('parent_id') ?? ''),
+          parentName: element.getAttribute('parent_name'),
+          ruianCode: int.tryParse(element.getAttribute('ruian_kod') ?? ''),
         );
 
   /// Creates a copy of this dashboard but with the given fields replaced with
@@ -153,6 +153,6 @@ class Dashboard {
 
   @override
   String toString() {
-    return "Dashboard[$id, $name, $category, $url, parent: $parentName]";
+    return 'Dashboard[$id, $name, $category, $url, parent: $parentName]';
   }
 }

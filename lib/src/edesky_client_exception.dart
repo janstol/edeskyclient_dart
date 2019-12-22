@@ -18,6 +18,6 @@ class EdeskyClientException implements Exception {
 
   @override
   String toString() {
-    return "EdeskyClientException: $message, $statusCode";
+    return 'EdeskyClientException: $message, $statusCode';
   }
 }

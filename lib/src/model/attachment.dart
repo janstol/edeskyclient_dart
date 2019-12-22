@@ -32,12 +32,12 @@ class Attachment {
   /// Creates attachment from parsed XML.
   Attachment.fromXML(XmlElement element)
       : this(
-          id: int.tryParse(element.getAttribute("edesky_id")),
-          name: element.getAttribute("name"),
-          mimeType: element.getAttribute("mimetype"),
-          url: element.getAttribute("url"),
-          origUrl: element.getAttribute("orig_url"),
-          containsText: element.getAttribute("contains_text") == '1',
+          id: int.tryParse(element.getAttribute('edesky_id')),
+          name: element.getAttribute('name'),
+          mimeType: element.getAttribute('mimetype'),
+          url: element.getAttribute('url'),
+          origUrl: element.getAttribute('orig_url'),
+          containsText: element.getAttribute('contains_text') == '1',
         );
 
   /// Creates a copy of this attachment but with the given fields replaced with
@@ -83,7 +83,7 @@ class Attachment {
 
   @override
   String toString() {
-    return "Attachment<$id, $name, $origUrl, $mimeType, "
-        "containsText: $containsText>";
+    return 'Attachment<$id, $name, $origUrl, $mimeType, '
+        'containsText: $containsText>';
   }
 }

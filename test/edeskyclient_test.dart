@@ -14,38 +14,38 @@ void main() {
     String responseBody;
     int responseCode;
 
-    if (!url.queryParameters.containsKey("api_key") ||
-        url.queryParameters["api_key"] != testApiKey) {
+    if (!url.queryParameters.containsKey('api_key') ||
+        url.queryParameters['api_key'] != testApiKey) {
       return http.Response(
         errorNotLoggedIn,
         401,
-        headers: {HttpHeaders.contentTypeHeader: "text/html; charset=utf-8"},
+        headers: {HttpHeaders.contentTypeHeader: 'text/html; charset=utf-8'},
       );
     }
 
     switch (url.path) {
-      case "/api/v1/dashboards":
+      case '/api/v1/dashboards':
         if (url.queryParameters.containsKey('id')) {
           if (url.queryParameters['id'] == '1') {
-            responseBody = fixture("dashboard_1.xml");
+            responseBody = fixture('dashboard_1.xml');
             responseCode = 200;
           } else if (url.queryParameters['id'] == '0') {
-            responseBody = fixture("not_found.xml");
+            responseBody = fixture('not_found.xml');
             responseCode = 404;
           } else {
-            responseBody = "General error";
+            responseBody = 'General error';
             responseCode = 500;
           }
         } else {
-          responseBody = fixture("dashboards.xml");
+          responseBody = fixture('dashboards.xml');
           responseCode = 200;
         }
         break;
-      case "/api/v1/documents":
+      case '/api/v1/documents':
         if (url.queryParameters['keywords'] == 'chrudim') {
-          responseBody = fixture("documents.xml");
+          responseBody = fixture('documents.xml');
         } else {
-          responseBody = fixture("documents_empty.xml");
+          responseBody = fixture('documents_empty.xml');
         }
         responseCode = 200;
         break;
@@ -55,7 +55,7 @@ void main() {
       utf8.encode(responseBody),
       responseCode,
       headers: {
-        HttpHeaders.contentTypeHeader: "application/xml; charset=utf-8",
+        HttpHeaders.contentTypeHeader: 'application/xml; charset=utf-8',
       },
     );
   });
@@ -64,16 +64,16 @@ void main() {
 
   EdeskyClient edesky;
 
-  group("General tests", () {
+  group('General tests', () {
     setUpAll(() {
-      edesky = EdeskyClient(httpClient: mockClient, apiKey: "xyz");
+      edesky = EdeskyClient(httpClient: mockClient, apiKey: 'xyz');
     });
 
     tearDownAll(() {
       edesky.close();
     });
 
-    test("Should throw EdeskyClientException (401 unauthorized)", () {
+    test('Should throw EdeskyClientException (401 unauthorized)', () {
       expect(
         edesky.queryDashboard(1),
         throwsA(predicate<EdeskyClientException>(
@@ -82,7 +82,7 @@ void main() {
     });
   });
 
-  group("Dashboard tests", () {
+  group('Dashboard tests', () {
     setUpAll(() {
       edesky = EdeskyClient(httpClient: mockClient, apiKey: testApiKey);
     });
@@ -91,11 +91,11 @@ void main() {
       edesky.close();
     });
 
-    test("Dashboards should be equal", () async {
+    test('Dashboards should be equal', () async {
       expect(await edesky.queryDashboard(1), createTestDashboardCity());
     });
 
-    test("Should throw EdeskyClientException (404 Not found)", () async {
+    test('Should throw EdeskyClientException (404 Not found)', () async {
       expect(
         edesky.queryDashboard(0),
         throwsA(predicate<EdeskyClientException>(
@@ -103,15 +103,15 @@ void main() {
       );
     });
 
-    test("Should throw EdeskyClientException (500 General error)", () async {
+    test('Should throw EdeskyClientException (500 General error)', () async {
       expect(
         edesky.queryDashboard(-1),
         throwsA(predicate<EdeskyClientException>(
-            (e) => e.message == "General error" && e.statusCode == 500)),
+            (e) => e.message == 'General error' && e.statusCode == 500)),
       );
     });
 
-    test("Should return list of dashboards and match test dashboards",
+    test('Should return list of dashboards and match test dashboards',
         () async {
       final dashboards = await edesky.queryDashboards();
 
@@ -140,7 +140,7 @@ void main() {
     });
   });
 
-  group("Documents tests", () {
+  group('Documents tests', () {
     setUpAll(() {
       edesky = EdeskyClient(httpClient: mockClient, apiKey: testApiKey);
     });
@@ -149,13 +149,13 @@ void main() {
       edesky.close();
     });
 
-    test("Should return documents for Chrudim and match first", () async {
-      final documents = await edesky.queryDocuments(keywords: "chrudim");
+    test('Should return documents for Chrudim and match first', () async {
+      final documents = await edesky.queryDocuments(keywords: 'chrudim');
       expect(documents.first, createTestDocument());
     });
 
-    test("Should return no documents (empty)", () async {
-      final documents = await edesky.queryDocuments(keywords: "hjkggkghk");
+    test('Should return no documents (empty)', () async {
+      final documents = await edesky.queryDocuments(keywords: 'hjkggkghk');
       expect(documents, isEmpty);
     });
   });
