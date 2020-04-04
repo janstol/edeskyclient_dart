@@ -1,3 +1,6 @@
+## [1.0.1+1] - 2019-12-22
+* updated dependencies
+
 ## [1.0.1] - 2019-12-22
 * fixed lints
 * updated dependencies
