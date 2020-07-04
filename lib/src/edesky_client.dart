@@ -1,12 +1,11 @@
 import 'dart:convert';
-import 'dart:io';
 
 import 'package:edeskyclient/src/edesky_client_exception.dart';
 import 'package:edeskyclient/src/model/dashboard.dart';
 import 'package:edeskyclient/src/model/document.dart';
 import 'package:http/http.dart';
 import 'package:meta/meta.dart';
-import 'package:xml/xml.dart' as xml;
+import 'package:xml/xml.dart';
 
 /// Edesky client to query https://edesky.cz API.
 ///
@@ -29,8 +28,7 @@ class EdeskyClient {
   Future<Dashboard> queryDashboard(int id) async {
     final response = await _queryGet(_createUrl('dashboards', {'id': '$id'}));
 
-    return xml
-        .parse(utf8.decode(response.bodyBytes))
+    return XmlDocument.parse(utf8.decode(response.bodyBytes))
         .findAllElements('dashboard')
         .map((d) => Dashboard.fromXML(d))
         .single;
@@ -42,8 +40,7 @@ class EdeskyClient {
   Future<List<Dashboard>> queryDashboards() async {
     final response = await _queryGet(_createUrl('dashboards'));
 
-    return xml
-        .parse(utf8.decode(response.bodyBytes))
+    return XmlDocument.parse(utf8.decode(response.bodyBytes))
         .findAllElements('dashboard')
         .map((d) => Dashboard.fromXML(d))
         .toList();
@@ -81,8 +78,7 @@ class EdeskyClient {
     };
     final response = await _queryGet(_createUrl('documents', params));
 
-    return xml
-        .parse(utf8.decode(response.bodyBytes))
+    return XmlDocument.parse(utf8.decode(response.bodyBytes))
         .findAllElements('document')
         .map((d) => Document.fromXML(d))
         .toList();
@@ -107,7 +103,7 @@ class EdeskyClient {
       throw EdeskyClientException('$e');
     }
 
-    if (response.statusCode == HttpStatus.ok) {
+    if (response.statusCode == 200) {
       return response;
     } else {
       throw EdeskyClientException(_parseError(response), response.statusCode);
@@ -131,7 +127,10 @@ class EdeskyClient {
     final responseBody = utf8.decode(response.bodyBytes);
 
     try {
-      return xml.parse(responseBody).findAllElements('error').first.text;
+      return XmlDocument.parse(responseBody)
+          .findAllElements('error')
+          .first
+          .text;
     } on Exception catch (_) {
       return responseBody;
     }

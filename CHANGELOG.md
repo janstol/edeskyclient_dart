@@ -1,3 +1,7 @@
+## [1.0.2+1] - 2020-07-04
+* fixed web and flutter-web compatibility
+* updated dependencies
+
 ## [1.0.1+1] - 2020-04-04
 * updated dependencies
 

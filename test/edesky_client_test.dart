@@ -1,5 +1,4 @@
 import 'dart:convert';
-import 'dart:io';
 
 import 'package:edeskyclient/edeskyclient.dart';
 import 'package:http/http.dart' as http;
@@ -19,7 +18,7 @@ void main() {
       return http.Response(
         errorNotLoggedIn,
         401,
-        headers: {HttpHeaders.contentTypeHeader: 'text/html; charset=utf-8'},
+        headers: {'content-type': 'text/html; charset=utf-8'},
       );
     }
 
@@ -55,7 +54,7 @@ void main() {
       utf8.encode(responseBody),
       responseCode,
       headers: {
-        HttpHeaders.contentTypeHeader: 'application/xml; charset=utf-8',
+        'content-type': 'application/xml; charset=utf-8',
       },
     );
   });
@@ -92,7 +91,7 @@ void main() {
     });
 
     test('Dashboards should be equal', () async {
-      expect(await edesky.queryDashboard(1), createTestDashboardCity());
+      expect(await edesky.queryDashboard(1), testDashboardCity);
     });
 
     test('Should throw EdeskyClientException (404 Not found)', () async {
@@ -120,22 +119,22 @@ void main() {
 
       expect(
         dashboards.where((d) => d.id == 1).first,
-        createTestDashboardCity(),
+        testDashboardCity,
       );
 
       expect(
         dashboards.where((d) => d.id == 28).first,
-        createTestDashboardRegion(),
+        testDashboardRegion,
       );
 
       expect(
         dashboards.where((d) => d.id == 59).first,
-        createTestDashboardStructure(),
+        testDashboardStructure,
       );
 
       expect(
         dashboards.where((d) => d.id == 1231).first,
-        createTestDashboardInstitution(),
+        testDashboardInstitution,
       );
     });
   });
@@ -151,7 +150,7 @@ void main() {
 
     test('Should return documents for Chrudim and match first', () async {
       final documents = await edesky.queryDocuments(keywords: 'chrudim');
-      expect(documents.first, createTestDocument());
+      expect(documents.first, testDocument);
     });
 
     test('Should return no documents (empty)', () async {
