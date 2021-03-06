@@ -1,57 +1,56 @@
 import 'package:collection/collection.dart';
 import 'package:edeskyclient/src/model/attachment.dart';
-import 'package:meta/meta.dart';
 import 'package:xml/xml.dart';
 
 /// Document on official notice board
 class Document {
   /// Document ID
-  final int id;
+  final int? id;
 
   /// Document name/title
-  final String name;
+  final String? name;
 
   /// Creation date and time
   /// (YYYY-MM-DD hh:mm:ss TZD, eg. 2019-03-17 15:56:45 +0100)
-  final String createdAt;
+  final String? createdAt;
 
   /// Edesky URL
   /// (https://edesky.cz/dokument/....)
-  final String url;
+  final String? url;
 
   /// Original document URL
-  final String origUrl;
+  final String? origUrl;
 
   /// Plain text URL
-  final String textUrl;
+  final String? textUrl;
 
   /// Dashboard ID
-  final int dashboardId;
+  final int? dashboardId;
 
   /// List of [Attachment]
   final List<Attachment> attachments;
 
   const Document({
-    @required this.id,
-    @required this.name,
-    @required this.createdAt,
-    @required this.url,
-    @required this.origUrl,
-    @required this.textUrl,
-    @required this.dashboardId,
-    @required this.attachments,
+    required this.id,
+    required this.name,
+    required this.createdAt,
+    required this.url,
+    required this.origUrl,
+    required this.textUrl,
+    required this.dashboardId,
+    required this.attachments,
   });
 
   /// Creates document from parsed XML.
   Document.fromXML(XmlElement element)
       : this(
-          id: int.tryParse(element.getAttribute('edesky_id')),
+          id: int.tryParse(element.getAttribute('edesky_id')!),
           name: element.getAttribute('name'),
           createdAt: element.getAttribute('created_at'),
           url: element.getAttribute('edesky_url'),
           origUrl: element.getAttribute('orig_url'),
           textUrl: element.getAttribute('edesky_text_url'),
-          dashboardId: int.tryParse(element.getAttribute('dashboard_id')),
+          dashboardId: int.tryParse(element.getAttribute('dashboard_id')!),
           attachments: element
               .findAllElements('attachment')
               .map((el) => Attachment.fromXML(el))
@@ -61,14 +60,14 @@ class Document {
   /// Creates a copy of this document but with the given fields replaced with
   /// the new values.
   Document copyWith({
-    int id,
-    String name,
-    String createdAt,
-    String url,
-    String origUrl,
-    String textUrl,
-    int dashboardId,
-    List<Attachment> attachments,
+    int? id,
+    String? name,
+    String? createdAt,
+    String? url,
+    String? origUrl,
+    String? textUrl,
+    int? dashboardId,
+    List<Attachment>? attachments,
   }) {
     return Document(
       id: id ?? this.id,

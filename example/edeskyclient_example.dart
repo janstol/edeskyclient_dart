@@ -15,6 +15,7 @@ Future<void> main() async {
 
   // Fetch single dashboard by ID
   final dashboard = await edesky.queryDashboard(1);
+  // ignore: avoid_print
   print(dashboard.name);
 
   // ...

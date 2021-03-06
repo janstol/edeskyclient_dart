@@ -4,7 +4,6 @@ import 'package:edeskyclient/src/edesky_client_exception.dart';
 import 'package:edeskyclient/src/model/dashboard.dart';
 import 'package:edeskyclient/src/model/document.dart';
 import 'package:http/http.dart';
-import 'package:meta/meta.dart';
 import 'package:xml/xml.dart';
 
 /// Edesky client to query https://edesky.cz API.
@@ -20,7 +19,7 @@ class EdeskyClient {
   Client httpClient;
 
   /// Creates edesky client
-  EdeskyClient({@required this.httpClient, @required this.apiKey});
+  EdeskyClient({required this.httpClient, required this.apiKey});
 
   /// Gets a single dashboard by [id].
   ///
@@ -59,15 +58,15 @@ class EdeskyClient {
   ///
   /// Throws [EdeskyClientException] when response status code is not 200.
   Future<List<Document>> queryDocuments({
-    @required String keywords,
+    required String keywords,
     String searchWith = 'es',
-    String createdFrom,
-    int dashboardId,
+    String? createdFrom,
+    int? dashboardId,
     int includeTexts = 0,
     String order = 'score',
     int page = 1,
   }) async {
-    final params = <String, String>{
+    final params = <String, String?>{
       'keywords': keywords,
       'search_with': searchWith,
       'created_from': createdFrom,
@@ -98,7 +97,7 @@ class EdeskyClient {
     Response response;
 
     try {
-      response = await httpClient.get(requestUrl);
+      response = await httpClient.get(Uri.parse(requestUrl));
     } on Exception catch (e) {
       throw EdeskyClientException('$e');
     }
@@ -111,8 +110,8 @@ class EdeskyClient {
   }
 
   /// Constructs url for requets
-  String _createUrl(String path, [Map<String, String> parameters]) {
-    final params = <String, String>{};
+  String _createUrl(String path, [Map<String, String?>? parameters]) {
+    final params = <String, String?>{};
 
     params.addAll({'api_key': apiKey}); //add required api key
     if (parameters != null && parameters.isNotEmpty) {

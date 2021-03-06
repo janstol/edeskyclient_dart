@@ -1,7 +1,7 @@
 class EdeskyClientException implements Exception {
   final String message;
 
-  final int statusCode;
+  final int? statusCode;
 
   EdeskyClientException(this.message, [this.statusCode]);
 

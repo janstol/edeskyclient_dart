@@ -1,3 +1,6 @@
+## [1.1.0] - 2021-03-06
+* migrated to null-safety (stable)
+
 ## [1.0.2+1] - 2020-07-04
 * fixed web and flutter-web compatibility
 * updated dependencies

@@ -10,8 +10,8 @@ import 'fixtures/fixture.dart';
 void main() {
   final mockClient = MockClient((request) async {
     final url = request.url;
-    String responseBody;
-    int responseCode;
+    late String responseBody;
+    late int responseCode;
 
     if (!url.queryParameters.containsKey('api_key') ||
         url.queryParameters['api_key'] != testApiKey) {
@@ -61,7 +61,7 @@ void main() {
 
   //////////////////////////////////////////////////////////////////////////////
 
-  EdeskyClient edesky;
+  late EdeskyClient edesky;
 
   group('General tests', () {
     setUpAll(() {

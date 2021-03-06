@@ -1,73 +1,72 @@
-import 'package:meta/meta.dart';
 import 'package:xml/xml.dart';
 
 /// Official notice board
 class Dashboard {
   /// Dashboard ID
-  final int id;
+  final int? id;
 
   /// Dashboard category (samosprava, struktura, instituce)
-  final String category;
+  final String? category;
 
   /// Edesky URL
   /// (https://edesky.cz/desky/<id>)
-  final String url;
+  final String? url;
 
   /// Dashboard name
-  final String name;
+  final String? name;
 
   /// Region ID
   /// (Nomenclature of Units for Territorial Statistics)
-  final int nuts3Id;
+  final int? nuts3Id;
 
   /// Region name
   /// (Nomenclature of Units for Territorial Statistics)
-  final String nuts3Name;
+  final String? nuts3Name;
 
   /// District ID
   /// (Nomenclature of Units for Territorial Statistics)
-  final int nuts4Id;
+  final int? nuts4Id;
 
   /// District name
   /// (Nomenclature of Units for Territorial Statistics)
-  final String nuts4Name;
+  final String? nuts4Name;
 
   /// Public authority identification number (ICO)
-  final int ico;
+  final int? ico;
 
   /// Public authority abbreviation
-  final String abbreviation;
+  final String? abbreviation;
 
   /// ID of parent dashboard
-  final int parentId;
+  final int? parentId;
 
   /// Name of parent dashboard
-  final String parentName;
+  final String? parentName;
 
   /// RUIAN code
   /// (Registry of Territorial Identification, Addresses and Real Estate)
-  final int ruianCode;
+  final int? ruianCode;
 
   const Dashboard({
-    @required this.id,
-    @required this.category,
-    @required this.url,
-    @required this.name,
-    @required this.nuts3Id,
-    @required this.nuts3Name,
-    @required this.nuts4Id,
-    @required this.nuts4Name,
-    @required this.ico,
-    @required this.abbreviation,
-    @required this.parentId,
-    @required this.parentName,
-    @required this.ruianCode,
+    required this.id,
+    required this.category,
+    required this.url,
+    required this.name,
+    required this.nuts3Id,
+    required this.nuts3Name,
+    required this.nuts4Id,
+    required this.nuts4Name,
+    required this.ico,
+    required this.abbreviation,
+    required this.parentId,
+    required this.parentName,
+    required this.ruianCode,
   });
 
   /// Creates dashboard from parsed XML.
   Dashboard.fromXML(XmlElement element)
       : this(
-          id: int.tryParse(element.getAttribute('edesky_id')),
+          id: int.tryParse(element.getAttribute('edesky_id')!),
           name: element.getAttribute('name'),
           category: element.getAttribute('category'),
           url: element.getAttribute('edesky_url'),
@@ -85,19 +84,19 @@ class Dashboard {
   /// Creates a copy of this dashboard but with the given fields replaced with
   /// the new values.
   Dashboard copyWidth({
-    int id,
-    String category,
-    String url,
-    String name,
-    int nuts3Id,
-    String nuts3Name,
-    int nuts4Id,
-    String nuts4Name,
-    int ico,
-    String abbreviation,
-    int parentId,
-    String parentName,
-    int ruianCode,
+    int? id,
+    String? category,
+    String? url,
+    String? name,
+    int? nuts3Id,
+    String? nuts3Name,
+    int? nuts4Id,
+    String? nuts4Name,
+    int? ico,
+    String? abbreviation,
+    int? parentId,
+    String? parentName,
+    int? ruianCode,
   }) {
     return Dashboard(
       id: id ?? this.id,

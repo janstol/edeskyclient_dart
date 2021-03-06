@@ -9,7 +9,7 @@ Dart client for Czech service [edesky.cz API](https://edesky.cz/api). Supports d
 
 ```yaml
 dependencies:
-    edeskyclient: ^1.0.1+1
+    edeskyclient: ^1.1.0
 
 ```
 
